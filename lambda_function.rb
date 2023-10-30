@@ -52,7 +52,7 @@ def create_books_message(books)
   text = ''
   books.each do |book|
     textline = "#{book[:title]}\n#{book[:price]}\n#{book[:link]}\n"
-    separator = "---------------------------------\n"
+    separator = "-------------------------------\n"
     text << textline << separator
   end
 
